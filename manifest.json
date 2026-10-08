@@ -1,0 +1,500 @@
+{
+  "software": "OpenPOD",
+  "version": "0.1.0",
+  "target_reference_version": "mh1823 7.3.0",
+  "executed_reference": "third-party 7.3.7 selected source functions; R 4.5.0 survival 3.8.3",
+  "executed_python_tests": 32,
+  "executed_matlab_interface_runtime": "GNU Octave 9.4.0",
+  "matlab_target_syntax": "R2014b-R2020a; actual MATLAB version matrix not executed",
+  "date": "2026-10-08",
+  "files": {
+    ".github/workflows/validate.yml": {
+      "sha256": "fa09afc00b70517bda94a5a5ed290ad3881a28070f799a1b4928870722a8f2c5",
+      "bytes": 551
+    },
+    ".gitignore": {
+      "sha256": "229a12d155dc1d02b7c4aa251ab8ad3fd4f5a3e511354d5cc492a00a01731b43",
+      "bytes": 66
+    },
+    "LICENSE": {
+      "sha256": "358f73627eacec76d7a55f4afcf01f1607440d8da4816386bcb484d366cd5e8b",
+      "bytes": 1231
+    },
+    "OpenPOD_研究与验证报告.html": {
+      "sha256": "8fdcfab80803c29b1ab7bc8a028ca6e94d687fb20eb1b1b749a9804ca9cd223f",
+      "bytes": 1436557
+    },
+    "README.md": {
+      "sha256": "35cc38d46bb98e3722b441c1fcc25ba4bf3674318a15c9558fbf7ada796e7901",
+      "bytes": 5225
+    },
+    "data/generated/advanced_results.json": {
+      "sha256": "d27ea52b66f156b80ecae8c23d318524e88a698348bb6222cb2cb9f6aeed1ead",
+      "bytes": 1607
+    },
+    "data/generated/ascan_comparison.png": {
+      "sha256": "7a8f904b26502b9921e0c80aeddb099e895ef27ad422eb8e6f0a8fa0c04e2d97",
+      "bytes": 191254
+    },
+    "data/generated/ascan_raw.npy": {
+      "sha256": "41dd481d7b815148819cf3d069a9a6855af49c14ef513179d91c1ea5b4db1e14",
+      "bytes": 4224
+    },
+    "data/generated/bscan_comparison.png": {
+      "sha256": "6b63afe7263ffb260d1db468bbd5d1ab69752e0309942fc27db21169dd4e3dc7",
+      "bytes": 649634
+    },
+    "data/generated/bscan_processed.npz": {
+      "sha256": "a1e6379b55f7da4c03fe46f054c05271287e8462e896a4f60971adad66246b09",
+      "bytes": 372981
+    },
+    "data/generated/bscan_raw.npy": {
+      "sha256": "2939fb02f3f3f19909144b02c22c8b44c6e97649d9c518de813f3238778a9829",
+      "bytes": 196736
+    },
+    "data/generated/censored.csv": {
+      "sha256": "09971fe0d08b496e193f27fc150f412c7d0f6f702a1c6608a3bed50c25f33c14",
+      "bytes": 11831
+    },
+    "data/generated/censored_numeric.csv": {
+      "sha256": "b7d40edfaeff34262a17b2853a424a5ebc6da5641cd6828b463232438ea1a104",
+      "bytes": 20284
+    },
+    "data/generated/cscan_comparison.png": {
+      "sha256": "33d7e7c973df745cd1a448003745d4044f882e63142e5088d4466cdb472300cb",
+      "bytes": 46638
+    },
+    "data/generated/cscan_raw.npy": {
+      "sha256": "1102fb15a1024e9a3fb15f8022b982475590848d883676fc4c0edf19367b0501",
+      "bytes": 18560
+    },
+    "data/generated/diagnostics.png": {
+      "sha256": "3b82e04523c196d918f69cebab081ca636d569109345e86d8149f8e56ff26bd9",
+      "bytes": 61969
+    },
+    "data/generated/features.csv": {
+      "sha256": "8112e2c163d9066d7a45b28d205b843b2ad7c1753ca32da9479836a882ad126a",
+      "bytes": 3353
+    },
+    "data/generated/hierarchical.csv": {
+      "sha256": "188795b9c0c494b2a87168c4c038b893a1b3f36e884b5b19dc817407ef7a82b1",
+      "bytes": 9873
+    },
+    "data/generated/hitmiss.csv": {
+      "sha256": "2d2c1fe38bb454795d9a64cf4bad2c27a34763f329d11164e169385c8906571b",
+      "bytes": 5211
+    },
+    "data/generated/hitmiss_links.json": {
+      "sha256": "b8bb54558d3519bbd4f41e8353caa696b8d3087b9da096db29a0734000863334",
+      "bytes": 6071
+    },
+    "data/generated/mapod.csv": {
+      "sha256": "c6eec90e35022a0bc60f9d2c64f8631dd8cf719881d144222effd9f9a38c7df0",
+      "bytes": 7024
+    },
+    "data/generated/mapod_curve.png": {
+      "sha256": "77d4bcfd1d75cedfe4ee93ce63bd0f3929bc3aafd23c729958b2914a06bb2819",
+      "bytes": 48010
+    },
+    "data/generated/noise_fit.json": {
+      "sha256": "77e88ddcbb06fdd31f5a13bc6f48c316ab6f372dab0178b6d6ef262ad7e78465",
+      "bytes": 571
+    },
+    "data/generated/pod_hitmiss.png": {
+      "sha256": "2ae6b494501c7f26271554563e4a36f4f40a8c91c36ebaeb99705dc46c27618e",
+      "bytes": 73708
+    },
+    "data/generated/pod_signal.png": {
+      "sha256": "3f976ba91cac4de10c80383869dcbb802eab82ab756da4867a45eda0c21ec5b8",
+      "bytes": 76646
+    },
+    "data/generated/reference.npy": {
+      "sha256": "4cdec2c6cc51f2d3b0cb450fa2433a744abf67ba1178c73ba15271d68923fc5e",
+      "bytes": 4224
+    },
+    "data/generated/signal_fit.json": {
+      "sha256": "e575c533d624387cdf45f06b680f414d2531f69218fe68f4c920d6192ad7790c",
+      "bytes": 5805
+    },
+    "data/generated/threshold_tradeoff.csv": {
+      "sha256": "64a8d2243fb5ef31dd2d557d5cc53e7267d0a37fe903a132c68046aa139f820c",
+      "bytes": 4420
+    },
+    "data/generated/trace_reference.csv": {
+      "sha256": "4dfc267f13e15ee02cb71256ffc3fd5e5c0ee44c0b103e27bbcd58b18852744f",
+      "bytes": 25868
+    },
+    "data/generated/volume_comparison.png": {
+      "sha256": "73555fe66a5d926c3d47d694938cb25d40865ce87af4ccc2e15798a450a0c1c4",
+      "bytes": 42394
+    },
+    "data/generated/volume_raw.npy": {
+      "sha256": "8887a4aa53e129912a4661d50b835d6dcc16a6271f053145b5b638369474962e",
+      "bytes": 442496
+    },
+    "data/reference/example1.csv": {
+      "sha256": "e0baafdb51b58e0d5507e5f3ab2d5cfafefd4ac05fca67f46637d27df73ab4d1",
+      "bytes": 1016
+    },
+    "data/reference/example2.csv": {
+      "sha256": "fae7228f239fe4aac474e706014e0b0113603aa43c1a89ff46ac929e82db5c5b",
+      "bytes": 2167
+    },
+    "data/reference/example3.csv": {
+      "sha256": "a7e5d0f037dfad257c81294046222fd1e3b82441b35d92e2f943866e8f291d89",
+      "bytes": 2401
+    },
+    "data/reference/example4.csv": {
+      "sha256": "cb02aa6ba251b743ad98097722e2af7caeb4e1d2a405cfae115ddc0228177793",
+      "bytes": 1215
+    },
+    "docs/使用与数据接口.md": {
+      "sha256": "c8c53a71cebe0d3e5939a4fb708df535aa35cd4f36ccc94e2f572ae3da105be2",
+      "bytes": 8461
+    },
+    "docs/功能覆盖与验收.md": {
+      "sha256": "1ad200e7124c3a6dbb6846008f49d27a4e8f2410bf5d0e15aedc16d548f4e9fb",
+      "bytes": 5606
+    },
+    "docs/来源与版本.md": {
+      "sha256": "cad891344c88797a03e344e87605fa077a268d4a1394be4c95c5257ab3030e09",
+      "bytes": 2505
+    },
+    "docs/研究与算法说明.md": {
+      "sha256": "88dc27524f42c0ead85f6f00ffda2f363b2240059e9780023cbc831aea5e0165",
+      "bytes": 18750
+    },
+    "docs/验证报告.md": {
+      "sha256": "b7cfaee95df9a61351c3fab3353564076fb6db99f0706bf07ad8e645daf962c5",
+      "bytes": 6138
+    },
+    "examples/run_demo.py": {
+      "sha256": "b521a254183ce9a8c707eb1b3a9b0c414d2599d344fbee48ec3d4d3835110b86",
+      "bytes": 124
+    },
+    "examples/run_matlab_demo.m": {
+      "sha256": "861bb5ccd9b1b73b7a223ae190d9523c0801adfd7aa74107b5c4385c4b35cf2f",
+      "bytes": 556
+    },
+    "licenses/ARTISTIC-2.0.txt": {
+      "sha256": "913b668e604ca288fe967c1dccd6f12e4e0948ad047a547efa59cf3a785ef4e2",
+      "bytes": 9324
+    },
+    "matlab/op_bayes_censored.m": {
+      "sha256": "750db20a8055f515b6df2f4b4e2b40e3f8c0e80014a9a0f70d83d2d1eb40bb55",
+      "bytes": 2198
+    },
+    "matlab/op_bayes_linear.m": {
+      "sha256": "d596f2cad72474053547e10d2b7b95f023948beb3667b21c782ca972c3ef79f3",
+      "bytes": 1133
+    },
+    "matlab/op_binomial.m": {
+      "sha256": "152ed230d23a775e8487c5a045c4798662a4af04af5b70275b93c5b2b8635af8",
+      "bytes": 426
+    },
+    "matlab/op_bootstrap.m": {
+      "sha256": "144933cdf248062d7072670b20b3977cf950e9225ad33d618d301db15b3f4a7e",
+      "bytes": 1271
+    },
+    "matlab/op_calibrate.m": {
+      "sha256": "fc0c4df9da3032c7fd70acb1ba50e8ad31fd6514fc595a9bef0636d9133355b2",
+      "bytes": 568
+    },
+    "matlab/op_cfar.m": {
+      "sha256": "89cba71c551455430f9b47d99519bc0c0a0003d0da3a654ff28a99970df34ab3",
+      "bytes": 1111
+    },
+    "matlab/op_field.m": {
+      "sha256": "30630a93ee4283bf61d13b22b7aaf38a636aeb889c33445b5251fe12bf274616",
+      "bytes": 1700
+    },
+    "matlab/op_fit.m": {
+      "sha256": "951c4038f0fddc57681cd7959f5ff1517af95cca71e9a30bdaff9ed8e6652c45",
+      "bytes": 6780
+    },
+    "matlab/op_gp.m": {
+      "sha256": "b6c0606b04893dd8bd654a73c3a536d6725e01e252c01e82aa1162a4f95cfa64",
+      "bytes": 966
+    },
+    "matlab/op_legacy_band.m": {
+      "sha256": "59f3703e6190aff746c2f1ea353dad04567237601724fd5d1a415a70b1ae2236",
+      "bytes": 2020
+    },
+    "matlab/op_link.m": {
+      "sha256": "5ace61e9e6613147ae1e2ddba43c2f5971fc88e703456580fde7121cd3905658",
+      "bytes": 326
+    },
+    "matlab/op_linklogs.m": {
+      "sha256": "70fb7de3d930cc8ea2c38f9290baa16011331be3666a19ef23fd1635bd5f693b",
+      "bytes": 429
+    },
+    "matlab/op_logphi.m": {
+      "sha256": "67576f46a084bf74e9f71462681a686ace12ff1053459e5261fb1665caba8180",
+      "bytes": 232
+    },
+    "matlab/op_lr_band.m": {
+      "sha256": "ecf28b38847d120b6b6cd20417a6873a955066623eccc6b0cb42e2ab513bf5f7",
+      "bytes": 1365
+    },
+    "matlab/op_mapod.m": {
+      "sha256": "18d289782be7e61517f21f2d47394f124209ee12a82d19bf14d857c0ea99bb08",
+      "bytes": 886
+    },
+    "matlab/op_noise.m": {
+      "sha256": "cac32410e980d592882ac6171762d9c223be5afa4e56f6fd9d0db1d633d8e2da",
+      "bytes": 3684
+    },
+    "matlab/op_numeric_cov.m": {
+      "sha256": "6d04d9087d2f126af7bce2f8c4b227faa91704917406ca10e6b433fbdcaa69f6",
+      "bytes": 433
+    },
+    "matlab/op_plot.m": {
+      "sha256": "2a141194d24990b4871ca6cdf8f12b4b9780b73a3de07517046eb6bad837d55b",
+      "bytes": 1157
+    },
+    "matlab/op_plot_preprocess.m": {
+      "sha256": "836e14532955e09b4959d804c021e70f0e3eb52d6a795f4d400f0b6f3eb2d11e",
+      "bytes": 744
+    },
+    "matlab/op_pod.m": {
+      "sha256": "2e683fec976820db65a2e225cd8cc429a112e7e97cb8a8e5ec48380f733fa443",
+      "bytes": 758
+    },
+    "matlab/op_preprocess.m": {
+      "sha256": "999e075a25262119b45442a09ad45bece44c80950eae9401103d48c70fbe5cbd",
+      "bytes": 4772
+    },
+    "matlab/op_random_intercept.m": {
+      "sha256": "9a98a5368db9b39c8b17a2c1ad7f4fbe0c602183dec1d4a958635ccbd73c6e44",
+      "bytes": 1601
+    },
+    "matlab/op_selftest.m": {
+      "sha256": "72682b196b5af0080ec38d809f39d17f5dc23432495819c02c5666f1a70240ea",
+      "bytes": 3585
+    },
+    "matlab/op_shift.m": {
+      "sha256": "954fb9f4f91c4ac177368fc2b3243ccdd311988abcc6f28cb67a993b9cdca8b6",
+      "bytes": 336
+    },
+    "matlab/op_simulation_calibrate.m": {
+      "sha256": "b177b42a611906791c5b6eac699ab2a0d3b77cb98e2a44ecbeaa8175b3de1a11",
+      "bytes": 447
+    },
+    "matlab/op_size.m": {
+      "sha256": "7fba95ac0751b09a567c63064f111d09fe8bd08d919521bbe4735a86c1310f69",
+      "bytes": 658
+    },
+    "matlab/op_size_upper.m": {
+      "sha256": "14b446846ab653c9a80e1f2b10b980df6ad45743d8f8189556471ed2b7612e06",
+      "bytes": 2160
+    },
+    "matlab/op_snr.m": {
+      "sha256": "47b9982bf0d730f256ef089eec8fa7b5237283bee8051c781a4ab821824419b5",
+      "bytes": 403
+    },
+    "matlab/op_tradeoff.m": {
+      "sha256": "8008adcfff996570403b66af39c6f513016f3ddb821cf9d9c261a260abf42655",
+      "bytes": 432
+    },
+    "openpod/__init__.py": {
+      "sha256": "bade4c0448f3c1c5617460202647d59307161fe476f58ccaac1811e2c01bf6f3",
+      "bytes": 164
+    },
+    "openpod/advanced.py": {
+      "sha256": "6d5d297da6a0b96bfc51202a31dc6f925c0265428c17ee3b61ab633758b2755e",
+      "bytes": 12165
+    },
+    "openpod/cli.py": {
+      "sha256": "ff16889ff705f5eafcc7b338827e23fe8db2a9927b0e8b948df0359a1d64c9a4",
+      "bytes": 4020
+    },
+    "openpod/compat.py": {
+      "sha256": "75af19ebe72e84a19a80e3d3763e311b8c56e87c58532667173e8c8ca2829e49",
+      "bytes": 3803
+    },
+    "openpod/core.py": {
+      "sha256": "193059e909f1f5962938dc1576645d3cc8213ad73e5840069b9e23056a7e016e",
+      "bytes": 18965
+    },
+    "openpod/demo.py": {
+      "sha256": "d872dcac70e834ed10d788dd616c3eafdde2961e3da7667c4ba2907ac7a5c5d4",
+      "bytes": 6349
+    },
+    "openpod/diagnostics.py": {
+      "sha256": "170b844bbe9856742d68f5e07adab05bf27f1f6279de461e037d9006a977a4ce",
+      "bytes": 3974
+    },
+    "openpod/noise.py": {
+      "sha256": "e477253f43e132de902f80a3819a0613b2699b91f6d544bb08f3784f4b34df79",
+      "bytes": 4022
+    },
+    "openpod/signals.py": {
+      "sha256": "dbd58d0b5e193ba8dec8974d4d11b38f124e2dc8537f5f2e9d83c09f4793b62c",
+      "bytes": 10860
+    },
+    "openpod/visualize.py": {
+      "sha256": "9e274c9e015d152e681e40d1ec43152de2e3e40a418fcc21b793c8b54b2fa85c",
+      "bytes": 2025
+    },
+    "pyproject.toml": {
+      "sha256": "4a9bd704344210cb009ca7ea6bc3ef0c797111c2efa87754401fbcd69ce8e61e",
+      "bytes": 472
+    },
+    "tests/test_core.py": {
+      "sha256": "0a09efcbb8d66e4e282b232fb75972f6e2210618b9be155b7cb68b91af0cde89",
+      "bytes": 7830
+    },
+    "tests/test_signals.py": {
+      "sha256": "997eb4c8cb3f68a911d09b162e0adf0f3248332d60e704561eeb3eeb67d5054e",
+      "bytes": 1659
+    },
+    "validation/R_log.txt": {
+      "sha256": "77acd4da69752691d4cc5490f4e4ba142813dee15a54185bbc66999aa5b28a28",
+      "bytes": 3620
+    },
+    "validation/R_runtime.txt": {
+      "sha256": "47829ebc6933388a88e1333e51ecb0872b266b7100ba20a5be59cde460bea29f",
+      "bytes": 79
+    },
+    "validation/cfar_results.json": {
+      "sha256": "e7c41b166042f9d6050da35be6f1f833ab9dc80ded8f2c703bb9c310e22e6662",
+      "bytes": 328
+    },
+    "validation/compare.py": {
+      "sha256": "09cd4f274a9412e2c5a7db4ad1fd87ab88a56c7c447f90263239fcad6b7c0320",
+      "bytes": 4720
+    },
+    "validation/comparison.csv": {
+      "sha256": "b95f9875e97f10715bccaaf0b48f32bd735877cb14be165acd2effddf853f43d",
+      "bytes": 1958
+    },
+    "validation/comparison.json": {
+      "sha256": "1a49d9c800b3cd8c3a2e2e0eca710abe5a03afe68f6c151caef5a9ece401e066",
+      "bytes": 3209
+    },
+    "validation/comparison_log.txt": {
+      "sha256": "af2458fd37e0320836075ed1eff9f81b53e4761509489bea8d2d450f4101569c",
+      "bytes": 642
+    },
+    "validation/coverage_study.py": {
+      "sha256": "8297fa6792253f3e2e96f0d2cb0b3d8a8155ac8464ee3f38769c721dd31a3837",
+      "bytes": 2164
+    },
+    "validation/coverage_summary.json": {
+      "sha256": "e41e34a7809cc5c33a7c694672d14d672f09a12f62f2fca3e47722cad47d0ca1",
+      "bytes": 489
+    },
+    "validation/coverage_trials.csv": {
+      "sha256": "8c7ca4168bb4f2615de1ea5d0c8fdf5d24befd3ecd2876dbb0b2925a122f04fa",
+      "bytes": 7544
+    },
+    "validation/example1_R_cov.csv": {
+      "sha256": "a5647fc532f1462b7a495cd9f36ab16a705aba2e7130ae8171ccfae89819ae42",
+      "bytes": 175
+    },
+    "validation/example2_R_cov.csv": {
+      "sha256": "5da6e9b0eecfaba1396df4c866148ea0f379fff32f8b49b312f4aadf3cab5d96",
+      "bytes": 157
+    },
+    "validation/example3_cloglog_R_cov.csv": {
+      "sha256": "dbe1f79360f0ff8640ddaa63736583d6b0dc4d5a615977f4799462b04e24ca89",
+      "bytes": 71
+    },
+    "validation/example3_logit_R_cov.csv": {
+      "sha256": "971a28bbc47878cec652f2e9dfad3f81701d87d2edb25aa04e7acfcdf0d70b9b",
+      "bytes": 71
+    },
+    "validation/example3_loglog_R_cov.csv": {
+      "sha256": "f906a38e8be0532ee83c98a6aaa98871212d299b008c07bf415bc256592f9480",
+      "bytes": 71
+    },
+    "validation/example3_probit_R_cov.csv": {
+      "sha256": "0032149bb17c396753df7fb123bed719aa2ce21c735e55d7d49ae62fee1b148f",
+      "bytes": 71
+    },
+    "validation/generated_cloglog_R_cov.csv": {
+      "sha256": "cab6a375512eb106ce39575e69d3d90915411eae623fb1432a44d83303e9dbfd",
+      "bytes": 78
+    },
+    "validation/generated_logit_R_cov.csv": {
+      "sha256": "6546f54c39b0ddaeb42aa289b42e39cbeebe24d5a579fcfca7aa78e9aa300dac",
+      "bytes": 76
+    },
+    "validation/generated_loglog_R_cov.csv": {
+      "sha256": "bb81c95a737888013ab5c1feafa0328c7fd84368d26c95a47aaa852be9add5e8",
+      "bytes": 78
+    },
+    "validation/generated_probit_R_cov.csv": {
+      "sha256": "14c63d55623d5c9165a8a25900c1e353d43b2f1b37efc64591490c838c6db10d",
+      "bytes": 78
+    },
+    "validation/generated_signal_R_cov.csv": {
+      "sha256": "79d7efef0d6ae873dff6b67a1f4fd45604b24b944da32d16b4845a94131a1dce",
+      "bytes": 187
+    },
+    "validation/matlab/hitmiss.csv": {
+      "sha256": "d476e77b86677c43986393cd762171b267ff888fe287ef74a540f4c05cf4f314",
+      "bytes": 364
+    },
+    "validation/matlab/legacy_bounds.csv": {
+      "sha256": "0f46e23eaffcfb7b6f7942709567c153e6d2d854c03bcbefa25f280cb90b43b1",
+      "bytes": 74
+    },
+    "validation/matlab/random_intercept.csv": {
+      "sha256": "f1119500ed723b130ee88e619bb0eecbefe854e23915dfada8dae14c7f96424b",
+      "bytes": 94
+    },
+    "validation/matlab/results.mat": {
+      "sha256": "b1ec3e304dccefb726a248d1f71db96b13b056780d923d7b8add16213b7f3cb1",
+      "bytes": 19908
+    },
+    "validation/matlab/signal_covariance.csv": {
+      "sha256": "a3882a7abd8faeb98b59ea1607a356f20a41703f3795d08bb4b01d344e84e86a",
+      "bytes": 195
+    },
+    "validation/matlab/signal_limits.csv": {
+      "sha256": "09225f315558dbf2c7f013e3d16156359353690f10fdff224c53535f7279dc67",
+      "bytes": 54
+    },
+    "validation/matlab/signal_parameters.csv": {
+      "sha256": "08a397a8f994e26d816dc04b16d2475b874ce4110f758c75d978d2b43b589a43",
+      "bytes": 57
+    },
+    "validation/matlab/trace.csv": {
+      "sha256": "26d8bab52aad3408e9ce43c2b84066dc95a0399153ceb0a639a33804b57d1ab8",
+      "bytes": 29017
+    },
+    "validation/octave_log.txt": {
+      "sha256": "18be697b0a2380dc955996505471dec021a2d42bdcb2dfbab09f1cf9aabd321d",
+      "bytes": 39
+    },
+    "validation/preprocessing_metrics.json": {
+      "sha256": "c83c6dc9dc98731b27a30b62ef997255798f86aba863455eba85d5bd24984678",
+      "bytes": 2479
+    },
+    "validation/pytest_log.txt": {
+      "sha256": "57445f1a5fa1b6f325d606f8da7aaa754b3856a4032fadb3032a366912b7a727",
+      "bytes": 99
+    },
+    "validation/python_fits.json": {
+      "sha256": "3b2dafd2b151cd40a72d27d41cf95176e5f3c592ef4de047cfe2f2e95d8f4254",
+      "bytes": 28769
+    },
+    "validation/python_matlab_comparison.json": {
+      "sha256": "7407d6d2b6d3f8fd6ba27a5c804a45ebb0f8978a63e6d63f2e449da2cf8550c9",
+      "bytes": 641
+    },
+    "validation/python_runtime.json": {
+      "sha256": "22637a5e41609ba9b00516c90212b88344c714366ef83d05148a0a635e0e3ac4",
+      "bytes": 170
+    },
+    "validation/reference_R.R": {
+      "sha256": "c7b7d452258e8168af482e273f07e1b78c3cecee6220ef32a38b252c3175c023",
+      "bytes": 4782
+    },
+    "validation/reference_R_results.csv": {
+      "sha256": "27027c807c86e872718a244c39ac850a808234249b37403c90d7f46733a45eb4",
+      "bytes": 1486
+    }
+  }
+}

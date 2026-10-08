@@ -1,0 +1,132 @@
+Call:
+survreg(formula = censored.a.hat ~ a, data = a.hat.censor.df, 
+    dist = "gaussian")
+
+Coefficients:
+(Intercept)           a 
+  -960.1338    535.5248 
+
+Scale= 148.2805 
+
+Loglik(model)= -590.5   Loglik(intercept only)= -664.1
+	Chisq= 147.19 on 1 degrees of freedom, p= <2e-16 
+n= 92 
+Call:
+survreg(formula = censored.a.hat ~ a, data = a.hat.censor.df, 
+    dist = "gaussian")
+
+Coefficients:
+(Intercept)           a 
+ -1183.6810    614.6424 
+
+Scale= 150.9681 
+
+Loglik(model)= -996.6   Loglik(intercept only)= -1225.1
+	Chisq= 457.02 on 1 degrees of freedom, p= <2e-16 
+n= 368 
+[1] "link.function = logit"
+
+
+          file name: OpenPOD validation
+             b0 mle: -4.59736656561765
+             b1 mle: 39.7654286840476
+ellipse.correlation: -0.8997
+              theta: -0.1186 radians = -6.797 deg.
+
+             b0.min: -0.869556499875678
+             b0.max:  0.869556499875678
+             b1.min: -21.2500972426873
+             b1.max:  21.2500972426873 
+
+    max(difference): 3.5527136788005e-15
+    min(difference): 3.5527136788005e-15 
+"max log(likelihood)" == -38.7469053178524
+
+
+          file name: OpenPOD validation
+             b0 mle: -4.59736656561765
+             b1 mle: 39.7654286840476
+   Akaike criterion: 81.4938106357048
+ max(loglikelihood): -38.7469053178524 
+
+[1] "link.function = probit"
+
+
+          file name: OpenPOD validation
+             b0 mle: -2.62399656581323
+             b1 mle: 22.6110314461234
+ellipse.correlation: -0.8866
+              theta: -0.1211 radians = -6.937 deg.
+
+             b0.min: -0.487195979120541
+             b0.max:  0.487195979120541
+             b1.min: -10.850188456065
+             b1.max:  10.850188456065 
+
+    max(difference): 3.5527136788005e-15
+    min(difference): 3.5527136788005e-15 
+"max log(likelihood)" == -38.5781741891977
+
+
+          file name: OpenPOD validation
+             b0 mle: -2.62399656581323
+             b1 mle: 22.6110314461234
+   Akaike criterion: 81.1563483783953
+ max(loglikelihood): -38.5781741891977 
+
+[1] "link.function = cloglog"
+
+
+          file name: OpenPOD validation
+             b0 mle: -3.27994399454641
+             b1 mle: 23.6696289231927
+ellipse.correlation: -0.9208
+              theta: -0.1409 radians = -8.072 deg.
+
+             b0.min: -0.521658836936828
+             b0.max:  0.521658836936828
+             b1.min: -12.339325012678
+             b1.max:  12.339325012678 
+
+    max(difference): 3.5527136788005e-15
+    min(difference): 3.5527136788005e-15 
+"max log(likelihood)" == -38.7456641741237
+
+
+          file name: OpenPOD validation
+             b0 mle: -3.27994399454641
+             b1 mle: 23.6696289231927
+   Akaike criterion: 81.4913283482473
+ max(loglikelihood): -38.7456641741237 
+
+[1] "link.function = loglog"
+
+
+          file name: OpenPOD validation
+             b0 mle: -2.53432323165969
+             b1 mle: 26.9044660620039
+ellipse.correlation: -0.8683
+              theta: -0.1016 radians = -5.821 deg.
+
+             b0.min: -0.551110735308543
+             b0.max:  0.551110735308543
+             b1.min: -13.3244841361691
+             b1.max:  13.3244841361691 
+
+    max(difference): 3.5527136788005e-15
+    min(difference): 3.5527136788005e-15 
+"max log(likelihood)" == -39.9271289207305
+
+
+          file name: OpenPOD validation
+             b0 mle: -2.53432323165969
+             b1 mle: 26.9044660620039
+   Akaike criterion: 83.8542578414611
+ max(loglikelihood): -39.9271289207305 
+
+Warning message:
+glm.fit: fitted probabilities numerically 0 or 1 occurred 
+[1] "link.function = logit"
+[1] "link.function = probit"
+[1] "link.function = cloglog"
+[1] "link.function = loglog"

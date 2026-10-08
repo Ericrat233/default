@@ -1,0 +1,222 @@
+{
+  "logit": {
+    "kind": "hitmiss",
+    "parameters": [
+      -2.2889471454425405,
+      2.9713743177665077
+    ],
+    "parameterization": "intercept,slope,covariates[,log(sigma)]",
+    "covariance": [
+      [
+        0.11055329583504846,
+        -0.09729790194337602
+      ],
+      [
+        -0.09729790194337602,
+        0.13128763662078674
+      ]
+    ],
+    "x_transform": "log",
+    "y_transform": "identity",
+    "threshold": 0.0,
+    "link": "logit",
+    "n": 240,
+    "log_likelihood": -83.38811978541655,
+    "aic": 170.7762395708331,
+    "diagnostics": {
+      "covariance_method": "fisher",
+      "deviance": 166.7762395708331,
+      "brier_score": 0.11104414958827921,
+      "pearson_chi2": 188.47193455635136,
+      "goodness_of_fit_note": "individual Bernoulli deviance is not a calibrated chi-square GOF test; use replicated sizes/grouped assessment"
+    },
+    "repeated_factor": 1,
+    "critical_POD": 0.9,
+    "confidence": 0.95,
+    "confidence_method": "LR_envelope_df1",
+    "POD_location_scale": {
+      "mu_transformed": 0.7703328159486392,
+      "scale_transformed": 0.33654460631929733,
+      "covariance": [
+        [
+          0.004367110763720591,
+          0.0001462684258772421
+        ],
+        [
+          0.0001462684258772422,
+          0.0016842027381616606
+        ]
+      ],
+      "note": "mu equals transformed a50 only for symmetric links"
+    },
+    "a50": 2.160485178067605,
+    "a90": 4.525811492006684,
+    "a_p": 4.525811492006684,
+    "a_p_conf": 5.858931821117676
+  },
+  "probit": {
+    "kind": "hitmiss",
+    "parameters": [
+      -1.320374437180065,
+      1.7123933122211095
+    ],
+    "parameterization": "intercept,slope,covariates[,log(sigma)]",
+    "covariance": [
+      [
+        0.030758719941060074,
+        -0.02516810657534392
+      ],
+      [
+        -0.02516810657534392,
+        0.03423738181945071
+      ]
+    ],
+    "x_transform": "log",
+    "y_transform": "identity",
+    "threshold": 0.0,
+    "link": "probit",
+    "n": 240,
+    "log_likelihood": -82.80865397282604,
+    "aic": 169.61730794565207,
+    "diagnostics": {
+      "covariance_method": "fisher",
+      "deviance": 165.61730794565207,
+      "brier_score": 0.11099385608914525,
+      "pearson_chi2": 185.4300958916336,
+      "goodness_of_fit_note": "individual Bernoulli deviance is not a calibrated chi-square GOF test; use replicated sizes/grouped assessment"
+    },
+    "repeated_factor": 1,
+    "critical_POD": 0.9,
+    "confidence": 0.95,
+    "confidence_method": "LR_envelope_df1",
+    "POD_location_scale": {
+      "mu_transformed": 0.7710696063554668,
+      "scale_transformed": 0.58397798733687,
+      "covariance": [
+        [
+          0.00419527766503115,
+          0.0002452181356394237
+        ],
+        [
+          0.00024521813563942364,
+          0.003981864287916005
+        ]
+      ],
+      "note": "mu equals transformed a50 only for symmetric links"
+    },
+    "a50": 2.162077589385552,
+    "a90": 4.569791180286791,
+    "a_p": 4.569791180286791,
+    "a_p_conf": 5.811586457374005
+  },
+  "cloglog": {
+    "kind": "hitmiss",
+    "parameters": [
+      -2.0897803016701753,
+      1.9654477482265857
+    ],
+    "parameterization": "intercept,slope,covariates[,log(sigma)]",
+    "covariance": [
+      [
+        0.0629232241532721,
+        -0.0473513272654785
+      ],
+      [
+        -0.047351327265478506,
+        0.04705366406055764
+      ]
+    ],
+    "x_transform": "log",
+    "y_transform": "identity",
+    "threshold": 0.0,
+    "link": "cloglog",
+    "n": 240,
+    "log_likelihood": -85.0992415201109,
+    "aic": 174.1984830402218,
+    "diagnostics": {
+      "covariance_method": "fisher",
+      "deviance": 170.1984830402218,
+      "brier_score": 0.1135445095470258,
+      "pearson_chi2": 186.28569617721737,
+      "goodness_of_fit_note": "individual Bernoulli deviance is not a calibrated chi-square GOF test; use replicated sizes/grouped assessment"
+    },
+    "repeated_factor": 1,
+    "critical_POD": 0.9,
+    "confidence": 0.95,
+    "confidence_method": "LR_envelope_df1",
+    "POD_location_scale": {
+      "mu_transformed": 1.0632591497564736,
+      "scale_transformed": 0.5087899186850912,
+      "covariance": [
+        [
+          0.003992992472177982,
+          0.0003528367973806984
+        ],
+        [
+          0.0003528367973806971,
+          0.003153170374102705
+        ]
+      ],
+      "note": "mu equals transformed a50 only for symmetric links"
+    },
+    "a50": 2.403151667589614,
+    "a90": 4.426487808045613,
+    "a_p": 4.426487808045613,
+    "a_p_conf": 5.287510124264211
+  },
+  "loglog": {
+    "kind": "hitmiss",
+    "parameters": [
+      -0.8998112631118826,
+      1.8739015103877272
+    ],
+    "parameterization": "intercept,slope,covariates[,log(sigma)]",
+    "covariance": [
+      [
+        0.026738187892552945,
+        -0.02443951072897074
+      ],
+      [
+        -0.024439510728970743,
+        0.05006480434934706
+      ]
+    ],
+    "x_transform": "log",
+    "y_transform": "identity",
+    "threshold": 0.0,
+    "link": "loglog",
+    "n": 240,
+    "log_likelihood": -83.11746154667226,
+    "aic": 170.23492309334452,
+    "diagnostics": {
+      "covariance_method": "fisher",
+      "deviance": 166.23492309334452,
+      "brier_score": 0.11105564508628246,
+      "pearson_chi2": 185.25583728648184,
+      "goodness_of_fit_note": "individual Bernoulli deviance is not a calibrated chi-square GOF test; use replicated sizes/grouped assessment"
+    },
+    "repeated_factor": 1,
+    "critical_POD": 0.9,
+    "confidence": 0.95,
+    "confidence_method": "LR_envelope_df1",
+    "POD_location_scale": {
+      "mu_transformed": 0.4801806595084624,
+      "scale_transformed": 0.533645975765872,
+      "covariance": [
+        [
+          0.004217859491701197,
+          -6.0690991788167404e-05
+        ],
+        [
+          -6.069099178816782e-05,
+          0.004060181783087626
+        ]
+      ],
+      "note": "mu equals transformed a50 only for symmetric links"
+    },
+    "a50": 1.9655435142209128,
+    "a90": 5.371354587939347,
+    "a_p": 5.371354587939347,
+    "a_p_conf": 7.669215076518232
+  }
+}

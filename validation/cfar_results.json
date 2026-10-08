@@ -1,0 +1,16 @@
+{
+  "ca": {
+    "target_pfa": 0.01,
+    "observed_pfa": 0.009075723830734966,
+    "valid_cells": 17960,
+    "false_alarms": 163,
+    "alpha": 4.953023510062664
+  },
+  "os": {
+    "target_pfa": 0.01,
+    "observed_pfa": 0.009187082405345211,
+    "valid_cells": 17960,
+    "false_alarms": 165,
+    "alpha": 3.838276771607688
+  }
+}

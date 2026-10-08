@@ -1,0 +1,15 @@
+name: Validate OpenPOD
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  python-and-octave:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python -m pip install -e '.[validation]'
+      - run: python -m pytest -q
+      - run: sudo apt-get update && sudo apt-get install -y --no-install-recommends octave
+      - run: octave --quiet --no-gui --eval "addpath('matlab'); op_selftest();"
+      - run: python validation/compare.py

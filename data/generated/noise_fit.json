@@ -1,0 +1,23 @@
+{
+  "family": "lognormal",
+  "parameters": [
+    -1.007780947625074,
+    -1.1605915771552815
+  ],
+  "covariance": [
+    [
+      0.00019631476301477124,
+      7.751949830455262e-13
+    ],
+    [
+      7.751949830455261e-13,
+      0.0009999999789865224
+    ]
+  ],
+  "parameterization": "normal:mu,log(sd); lognormal:mu_log,log(sd_log); weibull:log(shape),log(scale); exponential:log(scale); LEV:location,log(scale)",
+  "log_likelihood": 374.71699534953655,
+  "aic": -745.4339906990731,
+  "threshold": 0.7565895839814971,
+  "threshold_db": -2.422792839255597,
+  "pfa": 0.01
+}

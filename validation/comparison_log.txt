@@ -1,0 +1,14 @@
+{
+  "signal_parameter_max_abs": 6.743562597222308e-09,
+  "signal_cov_max_abs": 9.947204778620877e-11,
+  "signal_limit_max_relative": 1.3000103216143089e-09,
+  "binary_logit_max_abs": 1.5993301349936928e-07,
+  "binary_probit_max_abs": 3.272026205536349e-08,
+  "binary_cloglog_max_abs": 2.0984584736538636e-08,
+  "binary_loglog_max_abs": 8.861366573853502e-08,
+  "trace_processed_max_abs": 2.3314683517128287e-15,
+  "trace_envelope_max_abs": 1.85268467234323e-15,
+  "trace_cfar_threshold_max_abs": 6.661338147750939e-16,
+  "legacy_bound_matlab_python_max_abs": 4.3160280904785964e-11,
+  "legacy_bound_matlab_R_max_abs": 6.560187798543282e-08
+}

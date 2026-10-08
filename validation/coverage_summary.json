@@ -1,0 +1,12 @@
+{
+  "trials": 100,
+  "signal_successful": 100,
+  "signal_upper_coverage": 0.95,
+  "binary_successful": 100,
+  "binary_upper_coverage": 0.96,
+  "signal_true_a90": 3.2848463555410072,
+  "binary_true_a90": 4.477248920783047,
+  "signal_monte_carlo_se": 0.021794494717703377,
+  "binary_monte_carlo_se": 0.019595917942265433,
+  "note": "100 trials only. Signal target upper confidence .95; historical binary df1 LR95 region has approximately .975 one-sided quantile coverage under regularity."
+}
